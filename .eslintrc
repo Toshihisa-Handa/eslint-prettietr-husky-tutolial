@@ -1,0 +1,19 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "rules": {
+    // "no-console": ["error"],  // "warn" or "off"も設定可能:console.log()がerrorになる
+    // "indent": ["error", 2],  // インデントは2つにする
+    // "quotes": ["error", "single"], // 必ずシングルコーテーションを使用する
+    // "semi": ["error", "always"], // 末尾のセミコロンを使用する
+    // "no-unused-vars": ["warn"], // 変数宣言でvarを使用すると警告
+    // "camelcase": ["warn"] // キャメルケースを使用しないと警告
+  },
+  "extends": ["airbnb-base"]
+}
